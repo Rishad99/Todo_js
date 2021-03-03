@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Todo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO_JS</title>
+</head>
+<body onload="startTime()">
+    <div id="user_input" class="header">
+        <h2 id="time" class="time"></h2>
+        <h1>WHAT'S YOUR TODOS</h1>
+        <input type="text" id="input1" placeholder="Activity" ></input>
+        <span onclick="AddElement()" class="button">ADD</span>
+   
+    </div>
+    <div>
+        <ul id="show">
+            <li>HomeWork</li>
+            <li class="checked">TV</li>
+            <li>Free</li>
+            
+        </ul>
+        
+    </div>
+
+    <script src="./Todo.js"></script>
+</body>
+</html>
